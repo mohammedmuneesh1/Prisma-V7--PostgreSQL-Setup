@@ -9,6 +9,8 @@ STEP-3: npm install -D typescript ts-node @types/node @types/express prisma
 STEP-4: npx tsc --init
 STEP-4.1://YOU NEED TO INSTALL PRISMA PG SEPERATLY 
 import { PrismaPg } from '@prisma/adapter-pg';
+npm install @prisma/adapter-pg
+
 
 STEP-5: npx prisma init (
 
